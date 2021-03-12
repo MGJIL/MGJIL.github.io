@@ -20,13 +20,13 @@ class Menu extends React.Component {
 class Welcome extends React.Component {
   render() {
     return (
-      <React.Fragment>
-
-      </React.Fragment>
+      <div class="Welcome">
+        <p id="Texte">Hello</p>
+      </div>
     );
   }
 }
-
+/*
 class WhatIs extends React.Component {
   render() {
     return (
@@ -45,7 +45,7 @@ class WhoAre extends React.Component {
       </React.Fragment>
     );
   }
-}/*
+}
 
 class WhatDo extends React.Component {
   render() {
@@ -72,9 +72,6 @@ function App() {
     <div className="App">
         <Menu/>
         <Welcome/>
-        <WhatIs/>
-        <WhoAre/>
-
     </div>
   );
 }
@@ -82,6 +79,8 @@ function App() {
 export default App;
 
 /*
+        <WhatIs/>
+        <WhoAre/>
 
         <WhatDo/>
         <Conclusion/>

@@ -18,9 +18,8 @@
 .pot{
   position: absolute;
   top:20%;
-  left: 35%;
-  width: 30%;
-  max-width: 500px;
+  left: 25%;
+  width: 50%;
 }
 
 .piperight{
@@ -39,10 +38,25 @@
 }
 
 .gamejamdiv{
-  align-items: center;
-  width: 80%;
-  position: absolute;
-  bottom: 0px;
+  display: flex;
+  justify-content: center;
 }
 /*        <img class="pipes"src={Pipes} alt="Pipes"/>
 */
+
+
+
+/*-------------------
+      WELCOME
+---------------------*/
+
+.Welcome{
+  background-color: red;
+  min-height: 100vh;
+  color: white;
+  padding: 0px;
+}
+
+#Texte{
+  margin: 0px;
+}
