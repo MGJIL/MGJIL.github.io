@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 .App {
   text-align: center;
   background-color: black;
@@ -5,7 +8,88 @@
   height: 300vh;
 }
 
-.Menu{
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right:0;
+  width: 10%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/*:-- Menu--*/
+/*
+.change-menu{
+  position: absolute;
+  border: 2px dashed rgba(114, 186, 94, 0.35);
+}
+
+.change-menu:hover .menu-sup{
+  transform: translateY(15px) rotate(45deg);
+}
+.change-menu:hover .menu-mid{
+  transform: rotate(45deg);
+}
+.change-menu:hover .menu-inf{
+  transform:  translateY(-15px) rotate(-45deg);
+}
+
+.menu-sup{
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  position: sticky;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  transition-property: transform;
+  border-radius: 2px;
+}
+.menu-mid{
+  content: "";
+  top: 15px;
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  position: sticky;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  transition-property: transform;
+  border-radius: 2px;
+}
+.menu-inf{
+  content: "";
+  top: 30px;
+  width: 50px;
+  height: 5px;
+  background-color: black;
+  position: sticky;
+  overflow: hidden;
+  transition-duration: 0.4s;
+  transition-property: transform;
+  border-radius: 2px;
+}
+*/
+/*-------------------
+      WELCOME
+---------------------*/
+
+.Welcome{
   background-color: #282c34;
   min-height: 100vh;
   /*display: flex;*/
@@ -13,11 +97,12 @@
   /*align-items: center;*/
   /* justify-content: center; */
   color: white;
+  display: flex;
 }
 
 .pot{
   position: absolute;
-  top:20%;
+  top:10%;
   left: 25%;
   width: 50%;
 }
@@ -33,30 +118,61 @@
   position: absolute;
  height: 50%;
 }
+
 .gamejam{
+  position: absolute;
+  bottom: 0px;    
   width: 100%;
-}
-
-.gamejamdiv{
   display: flex;
-  justify-content: center;
+
 }
-/*        <img class="pipes"src={Pipes} alt="Pipes"/>
-*/
-
-
-
 /*-------------------
-      WELCOME
+      WhatIs
 ---------------------*/
 
-.Welcome{
-  background-color: red;
+.WhatIs{
+  background-color: rgb(97, 24, 24);
   min-height: 100vh;
   color: white;
   padding: 0px;
 }
 
-#Texte{
-  margin: 0px;
+h2 {
+  margin-top: 0px;
+  /*font-family: 'DotGothic16', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+}
+
+#gamejamDiv {
+  position: relative;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 30px;
+  width: 50%;
+}
+#CommentParticiperDiv {
+  position: absolute;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 30px;
+  width: 50%;
+  right: 0;
+}
+@media screen and (max-width: 500px){
+  #gamejamDiv {
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    width: auto;
+
+  }
+  #CommentParticiperDiv {
+    position: relative;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 30px;
+    width: auto;
+  }
 }
