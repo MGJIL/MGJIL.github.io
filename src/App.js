@@ -1,7 +1,7 @@
-import Pot from './image/PotRez.svg';
-import PipesRight from './image/piperight.svg';
-import PipesLeft from './image/pipeleft.svg';
-import GameJam from './image/Gamejam.svg';
+import Pot from './image/svg/PotRez.svg';
+import PipesRight from './image/svg/piperight.svg';
+import PipesLeft from './image/svg/pipeleft.svg';
+import GameJam from './image/svg/Gamejam.svg';
 
 import './App.css';
 import React from 'react';
@@ -30,11 +30,10 @@ class Welcome extends React.Component {
     return (
       
       <div class="Welcome">
-        
-        <img class="pot" src={Pot} alt="Pot"/>
-        <img class="piperight" src={PipesRight} alt="Pot"/>
-        <img class="pipeleft" src={PipesLeft} alt="Pot"/>
-        <img class="gamejam" src={GameJam} alt="Pot"/>
+        <div class="pot"><img id="svg-image" src={Pot} alt="Pot"/></div>
+        <div class="piperight"><img id="svg-image" src={PipesRight} alt="Pot"/></div>
+        <div class="pipeleft"><img id="svg-image" src={PipesLeft} alt="Pot"/></div>
+        <div class="gamejam"><img id="svg-image" src={GameJam} alt="Pot"/></div>
 
       </div>
     );
