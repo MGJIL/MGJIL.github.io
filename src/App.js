@@ -48,12 +48,19 @@ class WhatIs extends React.Component {
         <div class="WhatIs">
           <h2>C'est quoi? </h2>
           <div id="gamejamDiv">
-            <h3>GameJam</h3>
-          
+            <div id="gamejamDivTxt">
+              <h3>GameJam</h3>
+              <p>Qu'est-ce que le Lorem Ipsum?
+              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+              </p>
+            </div>
           </div>
           <div id="CommentParticiperDiv">
             <h3>GameJam</h3>
-          
+            <p>Qu'est-ce que le Lorem Ipsum?
+            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+            </p>
+
           </div>
         </div>
       </React.Fragment>
@@ -80,7 +87,7 @@ class WhatDo extends React.Component {
     );
   }
 }
-class Conclusion extends React.Component {
+class Conclusion extends  {
   render() {
     return (
       <React.Fragment>
@@ -91,7 +98,7 @@ class Conclusion extends React.Component {
 }*/
 
 
-function App() {
+export default function App() {
   return (
     <div className="App">
         <Welcome/>
@@ -101,9 +108,6 @@ function App() {
     </div>
   );
 }
-
-export default App;
-
 /*
         <WhatIs/>
         <WhoAre/>
