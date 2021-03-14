@@ -5,35 +5,35 @@ import GameJam from './image/svg/Gamejam.svg';
 
 import './App.css';
 import React from 'react';
-
+/*
 class Menu extends React.Component {
   render() {
     return (
-      /*https://github.com/simple-icons/simple-icons/tree/develop/icons*/
-      <div class="navbar">
+      https://github.com/simple-icons/simple-icons/tree/develop/icons
+      <div className="navbar">
         <a href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
       </div>
-      /*
+      
         <div id="change-menu">
-          <div class="menu-sup"></div>
-          <div class="menu-mid"></div>
-          <div class="menu-inf"></div>
+          <div className="menu-sup"></div>
+          <div className="menu-mid"></div>
+          <div className="menu-inf"></div>
         </div>
-        */
+        
       );
   }
-}
-class Welcome extends React.Component {
+}*/
+class WelcomeClasse extends React.Component {
   render() {
     return (
       
-      <div class="Welcome">
-        <div class="pot"><img id="svg-image" src={Pot} alt="Pot"/></div>
-        <div class="piperight"><img id="svg-image" src={PipesRight} alt="Pot"/></div>
-        <div class="pipeleft"><img id="svg-image" src={PipesLeft} alt="Pot"/></div>
-        <div class="gamejam"><img id="svg-image" src={GameJam} alt="Pot"/></div>
+      <div className="Welcome">
+        <div className="pot"><img className="svg-image" src={Pot} alt="Pot"/></div>
+        <div className="piperight"><img className="svg-image" src={PipesRight} alt="Pot"/></div>
+        <div className="pipeleft"><img className="svg-image" src={PipesLeft} alt="Pot"/></div>
+        <div className="gamejam"><img className="svg-image" src={GameJam} alt="Pot"/></div>
 
       </div>
     );
@@ -44,23 +44,26 @@ class WhatIs extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div class="WhatIs">
-          <h2>C'est quoi? </h2>
-          <div id="gamejamDiv">
-            <div id="gamejamDivTxt">
-              <h3>GameJam</h3>
-              <p>Qu'est-ce que le Lorem Ipsum?
-              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-              </p>
-            </div>
-          </div>
-          <div id="CommentParticiperDiv">
-            <h3>GameJam</h3>
-            <p>Qu'est-ce que le Lorem Ipsum?
-            Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-            </p>
+        <div className="WhatIs">
+          <h2 className="SectionTitle">C'est quoi? </h2>
+            <div id='WhatIsWithoutTitle'>
+              <div className='item'>
 
-          </div>
+
+              </div>
+              <div className='item'>
+
+
+              </div>
+              <div className='item'>
+
+
+              </div>
+              <div className='item'>
+
+                
+              </div>
+            </div>    
         </div>
       </React.Fragment>
     );
@@ -100,14 +103,15 @@ class Conclusion extends  {
 export default function App() {
   return (
     <div className="App">
-        <Welcome/>
+        <WelcomeClasse/>
         <WhatIs/>
-        <Menu />
 
     </div>
   );
 }
 /*
+        <Menu />
+
         <WhatIs/>
         <WhoAre/>
 
