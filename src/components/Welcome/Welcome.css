@@ -1,0 +1,80 @@
+
+.Welcome{
+  background-color: #282c34;
+  min-height: 100vh;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: center;*/
+  /* justify-content: center; */
+  color: white;
+  display: flex;
+  margin:auto;
+}
+
+.pot{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 500px;
+  width: 650px;
+  transform:  translateY(-50%) translateX(-50%);
+}.piperight{
+  position: absolute;
+  top: 0px;
+  right:0px;
+  height: 466px;
+  width: 204px;
+}.pipeleft{
+  position: absolute;
+  top: 20%;
+  left:0px;
+  height: 500px;
+  width: 100px;
+}.gamejam{
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform:  translateX(-50%);
+  width: 500px;
+}
+
+@media screen and (max-width:700px){
+  .pot{
+    height: 62.5vw;
+    width: 90vw;
+  }
+}@media screen and (max-height:500px){
+  .pot{
+    height: 62.5vh;
+    width: 90vh;
+  }
+}
+
+@media screen and (max-width:550px){
+  .gamejam{
+    width: 100%;
+  }
+  .pipeleft{
+    display: none
+  }
+}@media screen and (max-height:700px){
+  .pipeleft{
+    display: none
+  }
+}
+@media screen and (max-width:900px){
+  .piperight{
+    display: none;
+  }
+}
+@media screen and (max-height:550px){
+  .piperight{
+    display: none;
+  }
+
+}
+.svg-image{
+  width: 100%;
+  height: 100%;
+
+}

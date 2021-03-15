@@ -1,11 +1,44 @@
-import Pot from './image/svg/PotRez.svg';
-import PipesRight from './image/svg/piperight.svg';
-import PipesLeft from './image/svg/pipeleft.svg';
-import GameJam from './image/svg/Gamejam.svg';
-
 import './App.css';
 import React from 'react';
+import Welcome from './components/Welcome/Welcome';
+import WhatIs from './components/WhatIs/WhatIs';
+
+export default function App() {
+  return (
+    <div className="App">
+        <Welcome/>
+        <WhatIs/>
+
+    </div>
+  );
+}
+
+
 /*
+        <Menu />
+
+        <WhatIs/>
+        <WhoAre/>
+
+        <WhatDo/>
+        <Conclusion/>
+*/
+/*<!--
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>-->*/
+
+
+        /*
 class Menu extends React.Component {
   render() {
     return (
@@ -25,50 +58,6 @@ class Menu extends React.Component {
       );
   }
 }*/
-class WelcomeClasse extends React.Component {
-  render() {
-    return (
-      
-      <div className="Welcome">
-        <div className="pot"><img className="svg-image" src={Pot} alt="Pot"/></div>
-        <div className="piperight"><img className="svg-image" src={PipesRight} alt="Pot"/></div>
-        <div className="pipeleft"><img className="svg-image" src={PipesLeft} alt="Pot"/></div>
-        <div className="gamejam"><img className="svg-image" src={GameJam} alt="Pot"/></div>
-
-      </div>
-    );
-  }
-}
-
-class WhatIs extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <div className="WhatIs">
-          <h2 className="SectionTitle">C'est quoi? </h2>
-            <div id='WhatIsWithoutTitle'>
-              <div className='item'>
-
-
-              </div>
-              <div className='item'>
-
-
-              </div>
-              <div className='item'>
-
-
-              </div>
-              <div className='item'>
-
-                
-              </div>
-            </div>    
-        </div>
-      </React.Fragment>
-    );
-  }
-}
 /*
 class WhoAre extends React.Component {
   render() {
@@ -99,35 +88,3 @@ class Conclusion extends  {
   }
 }*/
 
-
-export default function App() {
-  return (
-    <div className="App">
-        <WelcomeClasse/>
-        <WhatIs/>
-
-    </div>
-  );
-}
-/*
-        <Menu />
-
-        <WhatIs/>
-        <WhoAre/>
-
-        <WhatDo/>
-        <Conclusion/>
-*/
-/*<!--
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>-->*/
