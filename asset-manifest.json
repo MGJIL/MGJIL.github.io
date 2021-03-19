@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/gamejaminterlyceeheroku/static/css/main.3c00b096.chunk.css",
-    "main.js": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js",
-    "main.js.map": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js.map",
-    "runtime-main.js": "/gamejaminterlyceeheroku/static/js/runtime-main.a49d2674.js",
-    "runtime-main.js.map": "/gamejaminterlyceeheroku/static/js/runtime-main.a49d2674.js.map",
-    "static/js/2.d0bbccd5.chunk.js": "/gamejaminterlyceeheroku/static/js/2.d0bbccd5.chunk.js",
-    "static/js/2.d0bbccd5.chunk.js.map": "/gamejaminterlyceeheroku/static/js/2.d0bbccd5.chunk.js.map",
-    "static/js/3.d96a14fb.chunk.js": "/gamejaminterlyceeheroku/static/js/3.d96a14fb.chunk.js",
-    "static/js/3.d96a14fb.chunk.js.map": "/gamejaminterlyceeheroku/static/js/3.d96a14fb.chunk.js.map",
-    "index.html": "/gamejaminterlyceeheroku/index.html",
-    "static/css/main.3c00b096.chunk.css.map": "/gamejaminterlyceeheroku/static/css/main.3c00b096.chunk.css.map",
-    "static/js/2.d0bbccd5.chunk.js.LICENSE.txt": "/gamejaminterlyceeheroku/static/js/2.d0bbccd5.chunk.js.LICENSE.txt",
-    "static/media/Gamejam.ae5c18a3.svg": "/gamejaminterlyceeheroku/static/media/Gamejam.ae5c18a3.svg",
-    "static/media/PotRez.72b5711b.svg": "/gamejaminterlyceeheroku/static/media/PotRez.72b5711b.svg",
-    "static/media/de.7105bc9b.png": "/gamejaminterlyceeheroku/static/media/de.7105bc9b.png",
-    "static/media/pipeleft.9f2c3c85.svg": "/gamejaminterlyceeheroku/static/media/pipeleft.9f2c3c85.svg",
-    "static/media/piperight.d190b684.svg": "/gamejaminterlyceeheroku/static/media/piperight.d190b684.svg",
-    "static/media/robot.8ad4b805.png": "/gamejaminterlyceeheroku/static/media/robot.8ad4b805.png"
+    "main.css": "/GameJamInterlycee/static/css/main.3c00b096.chunk.css",
+    "main.js": "/GameJamInterlycee/static/js/main.711db84e.chunk.js",
+    "main.js.map": "/GameJamInterlycee/static/js/main.711db84e.chunk.js.map",
+    "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.a0fb6dcc.js",
+    "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.a0fb6dcc.js.map",
+    "static/js/2.3ab78c76.chunk.js": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js",
+    "static/js/2.3ab78c76.chunk.js.map": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js.map",
+    "static/js/3.27d399d3.chunk.js": "/GameJamInterlycee/static/js/3.27d399d3.chunk.js",
+    "static/js/3.27d399d3.chunk.js.map": "/GameJamInterlycee/static/js/3.27d399d3.chunk.js.map",
+    "index.html": "/GameJamInterlycee/index.html",
+    "static/css/main.3c00b096.chunk.css.map": "/GameJamInterlycee/static/css/main.3c00b096.chunk.css.map",
+    "static/js/2.3ab78c76.chunk.js.LICENSE.txt": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js.LICENSE.txt",
+    "static/media/Gamejam.ae5c18a3.svg": "/GameJamInterlycee/static/media/Gamejam.ae5c18a3.svg",
+    "static/media/PotRez.72b5711b.svg": "/GameJamInterlycee/static/media/PotRez.72b5711b.svg",
+    "static/media/de.7105bc9b.png": "/GameJamInterlycee/static/media/de.7105bc9b.png",
+    "static/media/pipeleft.9f2c3c85.svg": "/GameJamInterlycee/static/media/pipeleft.9f2c3c85.svg",
+    "static/media/piperight.d190b684.svg": "/GameJamInterlycee/static/media/piperight.d190b684.svg",
+    "static/media/robot.8ad4b805.png": "/GameJamInterlycee/static/media/robot.8ad4b805.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a49d2674.js",
-    "static/js/2.d0bbccd5.chunk.js",
+    "static/js/runtime-main.a0fb6dcc.js",
+    "static/js/2.3ab78c76.chunk.js",
     "static/css/main.3c00b096.chunk.css",
-    "static/js/main.d1e054c2.chunk.js"
+    "static/js/main.711db84e.chunk.js"
   ]
 }
