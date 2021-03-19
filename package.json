@@ -1,8 +1,8 @@
 {
-  "name": "gamejaminterlyceeheroku",
+  "name": "gamejaminterlycee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arkanyota.github.io/gamejaminterlyceeheroku",
+  "homepage": "https://arkanyota.github.io/GameJamInterlycee",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

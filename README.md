@@ -2,12 +2,12 @@
 
 ## Site web 
 @ARKANYOTA \
-[https://arkanyota.github.io/gamejaminterlyceeheroku](https://arkanyota.github.io/gamejaminterlyceeheroku)
+[https://arkanyota.github.io/GameJamInterlycee](https://arkanyota.github.io/GameJamInterlycee)
 
 ## Page React
 ### Utiliser le code source
 
-Cloner le repo: `git clone https://github.com/ARKANYOTA/gamejaminterlyceeheroku.git` \
+Cloner le repo: `git clone https://github.com/ARKANYOTA/GameJamInterlycee.git` \
 Instaler les paquets: `npm i` \
 Lancer le serveur de test: `npm start` \
 Cree une production (build): `npm run build` \
