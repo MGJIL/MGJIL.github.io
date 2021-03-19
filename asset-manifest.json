@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gamejaminterlyceeheroku/static/css/main.54939759.chunk.css",
-    "main.js": "/gamejaminterlyceeheroku/static/js/main.90a2c1b9.chunk.js",
-    "main.js.map": "/gamejaminterlyceeheroku/static/js/main.90a2c1b9.chunk.js.map",
+    "main.js": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js",
+    "main.js.map": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js.map",
     "runtime-main.js": "/gamejaminterlyceeheroku/static/js/runtime-main.a49d2674.js",
     "runtime-main.js.map": "/gamejaminterlyceeheroku/static/js/runtime-main.a49d2674.js.map",
     "static/js/2.d0bbccd5.chunk.js": "/gamejaminterlyceeheroku/static/js/2.d0bbccd5.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a49d2674.js",
     "static/js/2.d0bbccd5.chunk.js",
     "static/css/main.54939759.chunk.css",
-    "static/js/main.90a2c1b9.chunk.js"
+    "static/js/main.d1e054c2.chunk.js"
   ]
 }
