@@ -1,4 +1,3 @@
-
 .Welcome{
   background-color: #282c34;
   min-height: 100vh;
@@ -10,7 +9,6 @@
   display: flex;
   margin:auto;
 }
-
 .pot{
   position: absolute;
   top: 50%;
@@ -61,20 +59,16 @@
   .pipeleft{
     display: none
   }
-}
-@media screen and (max-width:900px){
+}@media screen and (max-width:900px){
   .piperight{
     display: none;
   }
-}
-@media screen and (max-height:550px){
+}@media screen and (max-height:550px){
   .piperight{
     display: none;
   }
-
 }
 .svg-image{
   width: 100%;
   height: 100%;
-
 }

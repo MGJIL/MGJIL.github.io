@@ -1,13 +1,15 @@
 import './App.css';
 import React from 'react';
 import Welcome from './components/Welcome/Welcome';
-import WhatIs from './components/WhatIs/WhatIs';
+import Page1 from './components/Page1/Page1';
+import Page2 from './components/Page2/Page2';
 
 export default function App() {
   return (
     <div className="App">
         <Welcome/>
-        <WhatIs/>
+        <Page1/>
+        <Page2/>
 
     </div>
   );

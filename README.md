@@ -26,6 +26,7 @@ gh-pages: Github pages
 ## Ce que j'ai a ajouter
 ![Unkown1](/README_Files/maket.png)
 ![Imageoriginal](/README_Files/jamaffiche.png)
+![Reu](/README_Files/resumerReu.png)
 
 ### P1
    Qu'est-ce que c'est? \
@@ -37,6 +38,12 @@ gh-pages: Github pages
    Conseils \
    Quels logiciels utiliser?
 
+### Dates
+   - (1 Semaine ave 2 WE)
+   - Annonce du theme le vendredit 7(18h-19h)
+   - Jeudi 13 assencion
+   - Dimanche 16 00H00 Fermaeture de la prog
+   - 17 au 23 Vote par les jury et les participants (avec presentations)
 
 # TODO List
 
