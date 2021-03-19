@@ -3,6 +3,7 @@ import React from 'react';
 import Welcome from './components/Welcome/Welcome';
 import Page1 from './components/Page1/Page1';
 import Page2 from './components/Page2/Page2';
+import Footer from './components/Footer/Footer';
 
 export default function App() {
   return (
@@ -10,7 +11,7 @@ export default function App() {
         <Welcome/>
         <Page1/>
         <Page2/>
-
+        <Footer/>
     </div>
   );
 }

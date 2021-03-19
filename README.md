@@ -48,3 +48,5 @@ gh-pages: Github pages
 # TODO List
 
 - Faire le site
+- Liste des outils pour debutants
+- Mettre un bonne fonte partout
