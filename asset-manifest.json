@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gamejaminterlyceeheroku/static/css/main.54939759.chunk.css",
+    "main.css": "/gamejaminterlyceeheroku/static/css/main.3c00b096.chunk.css",
     "main.js": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js",
     "main.js.map": "/gamejaminterlyceeheroku/static/js/main.d1e054c2.chunk.js.map",
     "runtime-main.js": "/gamejaminterlyceeheroku/static/js/runtime-main.a49d2674.js",
@@ -10,7 +10,7 @@
     "static/js/3.d96a14fb.chunk.js": "/gamejaminterlyceeheroku/static/js/3.d96a14fb.chunk.js",
     "static/js/3.d96a14fb.chunk.js.map": "/gamejaminterlyceeheroku/static/js/3.d96a14fb.chunk.js.map",
     "index.html": "/gamejaminterlyceeheroku/index.html",
-    "static/css/main.54939759.chunk.css.map": "/gamejaminterlyceeheroku/static/css/main.54939759.chunk.css.map",
+    "static/css/main.3c00b096.chunk.css.map": "/gamejaminterlyceeheroku/static/css/main.3c00b096.chunk.css.map",
     "static/js/2.d0bbccd5.chunk.js.LICENSE.txt": "/gamejaminterlyceeheroku/static/js/2.d0bbccd5.chunk.js.LICENSE.txt",
     "static/media/Gamejam.ae5c18a3.svg": "/gamejaminterlyceeheroku/static/media/Gamejam.ae5c18a3.svg",
     "static/media/PotRez.72b5711b.svg": "/gamejaminterlyceeheroku/static/media/PotRez.72b5711b.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a49d2674.js",
     "static/js/2.d0bbccd5.chunk.js",
-    "static/css/main.54939759.chunk.css",
+    "static/css/main.3c00b096.chunk.css",
     "static/js/main.d1e054c2.chunk.js"
   ]
 }
