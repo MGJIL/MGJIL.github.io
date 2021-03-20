@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/GameJamInterlycee/static/css/main.3c00b096.chunk.css",
-    "main.js": "/GameJamInterlycee/static/js/main.711db84e.chunk.js",
-    "main.js.map": "/GameJamInterlycee/static/js/main.711db84e.chunk.js.map",
-    "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.a0fb6dcc.js",
-    "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.a0fb6dcc.js.map",
-    "static/js/2.3ab78c76.chunk.js": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js",
-    "static/js/2.3ab78c76.chunk.js.map": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js.map",
-    "static/js/3.27d399d3.chunk.js": "/GameJamInterlycee/static/js/3.27d399d3.chunk.js",
-    "static/js/3.27d399d3.chunk.js.map": "/GameJamInterlycee/static/js/3.27d399d3.chunk.js.map",
+    "main.css": "/GameJamInterlycee/static/css/main.6db4e71e.chunk.css",
+    "main.js": "/GameJamInterlycee/static/js/main.942eb2ca.chunk.js",
+    "main.js.map": "/GameJamInterlycee/static/js/main.942eb2ca.chunk.js.map",
+    "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.53a4fefb.js",
+    "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.53a4fefb.js.map",
+    "static/js/2.a4487915.chunk.js": "/GameJamInterlycee/static/js/2.a4487915.chunk.js",
+    "static/js/2.a4487915.chunk.js.map": "/GameJamInterlycee/static/js/2.a4487915.chunk.js.map",
+    "static/js/3.a81d3e27.chunk.js": "/GameJamInterlycee/static/js/3.a81d3e27.chunk.js",
+    "static/js/3.a81d3e27.chunk.js.map": "/GameJamInterlycee/static/js/3.a81d3e27.chunk.js.map",
     "index.html": "/GameJamInterlycee/index.html",
-    "static/css/main.3c00b096.chunk.css.map": "/GameJamInterlycee/static/css/main.3c00b096.chunk.css.map",
-    "static/js/2.3ab78c76.chunk.js.LICENSE.txt": "/GameJamInterlycee/static/js/2.3ab78c76.chunk.js.LICENSE.txt",
+    "static/css/main.6db4e71e.chunk.css.map": "/GameJamInterlycee/static/css/main.6db4e71e.chunk.css.map",
+    "static/js/2.a4487915.chunk.js.LICENSE.txt": "/GameJamInterlycee/static/js/2.a4487915.chunk.js.LICENSE.txt",
     "static/media/Gamejam.ae5c18a3.svg": "/GameJamInterlycee/static/media/Gamejam.ae5c18a3.svg",
     "static/media/PotRez.72b5711b.svg": "/GameJamInterlycee/static/media/PotRez.72b5711b.svg",
     "static/media/de.7105bc9b.png": "/GameJamInterlycee/static/media/de.7105bc9b.png",
@@ -20,9 +20,9 @@
     "static/media/robot.8ad4b805.png": "/GameJamInterlycee/static/media/robot.8ad4b805.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a0fb6dcc.js",
-    "static/js/2.3ab78c76.chunk.js",
-    "static/css/main.3c00b096.chunk.css",
-    "static/js/main.711db84e.chunk.js"
+    "static/js/runtime-main.53a4fefb.js",
+    "static/js/2.a4487915.chunk.js",
+    "static/css/main.6db4e71e.chunk.css",
+    "static/js/main.942eb2ca.chunk.js"
   ]
 }
