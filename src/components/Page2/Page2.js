@@ -20,6 +20,7 @@ export default function Page2() {
 				<div className='box-text'>
 					<h3>Avec Quoi?</h3>
 					<p>Des Amis, De la patience, de la persévérance. (Et des lignes de code)</p>
+					<strong><a href="/help">Aller à la page d'aide.</a></strong>
 				</div>
 
 			</div>

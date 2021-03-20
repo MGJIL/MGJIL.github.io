@@ -18,10 +18,10 @@
 }
 
 .App {
-  text-align: center;
   background-color: black;
   color: var(--white-color);
-  height: 400vh;
+  height: 100vh;
+  text-align: center;
 }
 
 
@@ -30,8 +30,16 @@ a{
   color: white;
 }
 
+.Index{
+  height: 400vh;
+}
 
-
+.UnknownPage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
 /*--------------------------
 ------COMMUN---------------- entre Page1, Date
 ---------------------------*/
