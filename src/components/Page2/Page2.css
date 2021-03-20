@@ -6,3 +6,21 @@
     margin:0 auto;
 
 }
+.Floating{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+.FloatingBox{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.FloatingBox > .backarrow{
+    position: absolute;
+    top:0px;
+    left: 0px;
+}

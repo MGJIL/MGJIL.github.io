@@ -1,31 +1,18 @@
 import './App.css';
-import React from 'react';
+import React from "react";
 import Welcome from './components/Welcome/Welcome';
 import Page1 from './components/Page1/Page1';
 import Page2 from './components/Page2/Page2';
 import Footer from './components/Footer/Footer';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Aide from './Aide';
-import Unknown from './Unknown';
 
-export default function App() {
-  return (
-    <div className="App">
-    <Router>
-      <Switch>
-      <Route path="/" exact component={() => <Index/>} />
-        <Route path="/GameJamInterlycee/" exact component={() => <Index/>} />
-        <Route path="/index" exact component={() => <Index/>} />
-        <Route path="/GameJamInterlycee/index" exact component={() => <Index/>} />
-        <Route path="/index.html" exact component={() => <Index/>} />
-        <Route path="/GameJamInterlycee/index.html" exact component={() => <Index/>} />
-        <Route path="/help" exact component={() => <Aide/>} />
-        <Route path="/GameJamInterlycee/help" exact component={() => <Aide/>} />
-        <Route path="/*" exact component={() => <Unknown/>} />
-      </Switch>
-    </Router>
-  </div>
-  );
+class App extends React.Component {
+  render(){
+    return (
+      <div className="App" id="Page">
+        <Index/>
+    </div>
+    )
+  }
 }
 class Index extends React.Component{
   render() {
@@ -39,6 +26,7 @@ class Index extends React.Component{
     );
   }
 }
+export default App;
 /*
     <div className="App">
     <React.Fragment>
