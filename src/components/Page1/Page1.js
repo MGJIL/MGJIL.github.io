@@ -16,6 +16,7 @@ export default function Page1() {
 					<p>
 						Unissez vos forces entre artistes, codeurs, musiciens, designeurs et écrivains  
 						afin de créer un jeu vidéo en moins d'une semaine !
+					</p>
 				</div>
 			</div>
 			<div className='box'>
