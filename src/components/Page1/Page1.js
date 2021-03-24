@@ -12,14 +12,19 @@ export default function Page1() {
 			</div>
 			<div className='box'>
 				<div className='box-text'>
-					<h3>Qu'est-ce que c'est?</h3>
-					<p>Qu'est ce que la game Jam? C'est un truc de ouf. On s'ammuse comme des fous</p>
+					<h3>?</h3>
+					<p>
+						Unissez vos forces entre artistes, codeurs, musiciens, designeurs et écrivains  
+						afin de créer un jeu vidéo en moins d'une semaine !
 				</div>
 			</div>
 			<div className='box'>
 				<div className='box-text'>
-					<h3>Comment?</h3>
-					<p>Bah c'est con</p>
+					<h3>Help! Je sais pas coder/dessiner/autre!</h3>
+					<p>
+						Pas de panique! Le plus important est d'apprendre des nouvelles choses et de coopérer 
+						entre lycéens. Votre créativité et esprit d'équipe sont bien plus importants ! :)
+					</p>
 				</div>
 			</div>
 			<div className='box'>

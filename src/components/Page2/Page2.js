@@ -27,9 +27,14 @@ class Page2 extends React.Component {
 					<div className='box'>
 						<div className='box-text'>
 							<h3>Quand?</h3>
-							<p>Annonce du theme le vendredi 7 mai vers 18-19h sur le <strong><a href="https://discord.com/invite/qnckfFcSqP">discord</a></strong>.</p>
-							<p>Arrêt de l'evenement le Dimanche 16 mai à 00H00</p>
-							<p>Vote et présentation du 17 au 23 mai par les jurys et les participants</p>
+							<p>
+								Vendredi 7 mai à 18-19h : Annonce du thème sur 
+								<u><strong><a href="https://discord.com/invite/qnckfFcSqP">Discord</a></strong></u>.
+							</p>
+							<p>Dimanche 16 mai à 23h59 : Arrêt de l'evenement</p>
+							<p>Lundi 17 mai : Présentation des jeux par les participants</p>
+							<p>Lundi 17 mai au Dimanche 23 mai : Vote par le jury et les participants</p>
+							<p>Dimanche 23 mai : Annonce des meilleurs jeux</p>
 						</div>
 					</div>
 					<div className='box'>
