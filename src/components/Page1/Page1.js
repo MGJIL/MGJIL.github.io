@@ -12,7 +12,7 @@ export default function Page1() {
 			</div>
 			<div className='box'>
 				<div className='box-text'>
-					<h3>?</h3>
+					<h3>C'est quoi ?</h3>
 					<p>
 						Unissez vos forces entre artistes, codeurs, musiciens, designeurs et écrivains  
 						afin de créer un jeu vidéo en moins d'une semaine !
@@ -21,10 +21,10 @@ export default function Page1() {
 			</div>
 			<div className='box'>
 				<div className='box-text'>
-					<h3>Help! Je sais pas coder/dessiner/autre!</h3>
+					<h3>Help! Je ne sais pas coder/dessiner/autre!</h3>
 					<p>
 						Pas de panique! Le plus important est d'apprendre des nouvelles choses et de coopérer 
-						entre lycéens. Votre créativité et esprit d'équipe sont bien plus importants ! :)
+						entre lycéens. Votre créativité, esprit d'équipe, et persévérance sont bien plus importants ! :)
 					</p>
 				</div>
 			</div>

@@ -28,13 +28,15 @@ class Page2 extends React.Component {
 						<div className='box-text'>
 							<h3>Quand?</h3>
 							<p>
-								Vendredi 7 mai à 18-19h : Annonce du thème sur 
-								<u><strong><a href="https://discord.com/invite/qnckfFcSqP">Discord</a></strong></u>.
+								<strong>Vendredi 7 mai à 18-19h</strong> : Annonce du thème 
+								sur <u><strong><a href="https://discord.com/invite/qnckfFcSqP">
+									Discord
+								</a></strong></u>.
 							</p>
-							<p>Dimanche 16 mai à 23h59 : Arrêt de l'evenement</p>
-							<p>Lundi 17 mai : Présentation des jeux par les participants</p>
-							<p>Lundi 17 mai au Dimanche 23 mai : Vote par le jury et les participants</p>
-							<p>Dimanche 23 mai : Annonce des meilleurs jeux</p>
+							<p><strong>Dimanche 16 mai à 23h59</strong> : Arrêt de l'evenement</p>
+							<p><strong>Lundi 17 mai</strong> : Présentation des jeux par les participants</p>
+							<p><strong>Lundi 17 mai au Dimanche 23 mai</strong> : Vote par le jury et les participants</p>
+							<p><strong>Dimanche 23 mai</strong> : Annonce des meilleurs jeux</p>
 						</div>
 					</div>
 					<div className='box'>
@@ -43,8 +45,13 @@ class Page2 extends React.Component {
 					</div>
 					<div className='box'>
 						<div className='box-text'>
-							<h3>Avec Quoi?</h3>
-							<p>Des Amis, De la patience, de la persévérance. (Et des lignes de code)</p>
+							<h3>Pourquoi ?</h3>
+							<p>
+								Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de 
+								différences personnes. Dans les bonnes conditions, une jam
+								est une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. 
+								Et parfois, des nouvelles amitiés se forment après une jam !
+							</p>
 							<strong className="GoToPageHelp">
 								<button onClick={this.changeType}>Aller à la page d'aide.</button>
 							</strong>
