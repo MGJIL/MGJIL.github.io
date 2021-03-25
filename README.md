@@ -51,3 +51,4 @@ gh-pages: Github pages
 - Liste des outils pour debutants
 - Mettre un bonne fonte partout
 - Ajouter le packet locomotive 
+- Responsive phone

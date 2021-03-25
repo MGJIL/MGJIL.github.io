@@ -35,7 +35,7 @@ class PInsideTruc extends React.Component{
 						strokeDashoffset={this.props.timeLeft[this.props.interval]/this.Render_Sur_Combien()*173} strokemitterlimit="0"/>
 				</svg>
 			</React.Fragment>
-		)
+		);
 	}
 }
 
@@ -65,7 +65,6 @@ function Countdown() {
 	});
 
 	const timerComponents = [];
-	const nameComponents = [];
 
 	Object.keys(timeLeft).forEach((interval) => {
 		if (!timeLeft[interval]) {
@@ -74,14 +73,16 @@ function Countdown() {
 
 		timerComponents.push(
 			<span key={interval+"span"}>
-					<div key={interval} className="Boite_Interval1">
-						<p key={interval+"p"}>
-							<PInsideTruc timeLeft={timeLeft} interval={interval}/>
-						</p>
-					</div>
+				<div key={interval} className="Boite_Interval1">
+					<p key={interval+"p"}>
+						<PInsideTruc timeLeft={timeLeft} interval={interval}/>
+					</p>
+				</div>
 			</span>
 		);
 	});
+	
+	const nameComponents = [];
 	Object.keys(timeLeft).forEach((interval) => {
 		if (!timeLeft[interval]) {
 			return;
@@ -89,23 +90,42 @@ function Countdown() {
 
 		nameComponents.push(
 			<span key={interval+"spanname"}>
-					<div key={interval+"name"} className="Boite_Interval1name">
-						<p>{interval}</p>
-					</div>
+				<div key={interval+"name"} className="Boite_Interval1name">
+					<p>{interval}</p>
+				</div>
 			</span>
 		);
 	});
 	return (
 		<div>
 			{timerComponents.length ? 
-				<div className="Boite_Interval"><h3>Temps restant avant:</h3>{timerComponents}<p>{nameComponents}</p></div> 
+				<div className="Boite_Interval"><h3>Temps restant avant:</h3>{timerComponents}<br/>{nameComponents}</div> 
 				:<span>Time's up!</span>
 			}
 		</div>
 	);
 }
+/*
+	Object.keys(timeLeft).forEach((interval) => {
+		if (!timeLeft[interval]) {
+			return;
+		}
+
+		nameComponents.push(
+		);
+			
+		
 
 
+
+return (
+				<div className="Page2">
+					
+		);
+	});
+
+
+*/
 class Page2 extends React.Component {
 	render(){
 		return (
@@ -113,15 +133,21 @@ class Page2 extends React.Component {
 				<div className='box'>
 					<div className='box-text'>
 						<h3>Quand?</h3>
-						<p>Annonce du theme le vendredi 7 mai vers 18-19h sur le <strong><a href="https://discord.com/invite/qnckfFcSqP">discord</a></strong>.</p>
-						<p>Arrêt de l'evenement le Dimanche 16 mai à 00H00</p>
-						<p>Vote et présentation du 17 au 23 mai par les jurys et les participants</p>
+						<p>
+							<strong>Vendredi 7 mai à 18-19h</strong> : Annonce du thème sur <u>
+								<strong>
+									<a href="https://discord.com/invite/qnckfFcSqP">Discord</a>
+								</strong>
+							</u>.
+						</p>
+						<p><strong>Dimanche 16 mai à 23h59</strong> : Arrêt de l'evenement</p>
+						<p><strong>Lundi 17 mai</strong> : Présentation des jeux par les participants</p>
+						<p><strong>Lundi 17 mai au Dimanche 23 mai</strong> : Vote par le jury et les participants</p>
+						<p><strong>Dimanche 23 mai</strong> : Annonce des meilleurs jeux</p>
 					</div>
 				</div>
 				<div className='box'>
 					<Countdown/>
-				</div>
-				<div className='box'>
 				</div>
 				<div className='box'>
 					<div className='box-text'>
@@ -130,9 +156,19 @@ class Page2 extends React.Component {
 					</div>
 
 				</div>
+				<div className='box'>
+					<div className='box-text'>
+						<h3>Pourquoi ?</h3>
+						<p>
+							Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de 
+							différences personnes. Dans les bonnes conditions, une jam
+							est une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. 
+							Et parfois, des nouvelles amitiés se forment après une jam !
+						</p>
+					</div>
+				</div>
 			</div>    
 		);
 	}
-	
 }
 export default Page2;

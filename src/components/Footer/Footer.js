@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="SocialBox">
                         <a href="https://www.github.com/Yolwoocle" className="fa-github"><img className="fa fa-image" alt="github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" /></a>
                         <a href="https://www.youtube.com/channel/UCnoLGNd0y28wyucydvJalKg" className="fa-youtube"><img className="fa fa-image" alt="youtube" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" /></a>
-                        <a href="https://www.instagram.com/yolwoocle/" className="fa-instagram"><img className="fa fa-image" alt="instagram" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/instagram.svg" /></a>
+                        <a href="https://www.instagram.com/leo.br_nd/" className="fa-instagram"><img className="fa fa-image" alt="instagram" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/instagram.svg" /></a>
                     </div>
                 </div>
 
