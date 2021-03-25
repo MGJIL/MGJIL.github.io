@@ -7,7 +7,7 @@
 ## Page React
 ### Utiliser le code source
 
-Cloner le repo: `git clone https://github.com/ARKANYOTA/GameJamInterlycee.git` \
+Cloner le repo: `git clone https://github.com/ARKANYOTA/GameJamInterlycee.git` et ouvrir le dossier: `cd GameJamInterlycee` \
 Instaler les paquets: `npm i` \
 Lancer le serveur de test: `npm start` \
 Cree une production (build): `npm run build` \

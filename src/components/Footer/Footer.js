@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="Footer">
             <div className="Equipededev">
                 <div className="Maxime box-dev">
-                    <p>Maxime (Maxio)</p>
+                    <p>Maxio (Maxime)</p>
                     <div className="SocialBox">
                         <a href="https://github.com/Maxim-Costa" className="fa-github"><img className="fa fa-image" alt="github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" /></a>
                         <a href="https://www.youtube.com/channel/UCcwmG21oxy3Q3u7utDU7zpw" className="fa-youtube"><img className="fa fa-image" alt="youtube" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" /></a>
@@ -14,7 +14,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="Nolan box-dev">
-                    <p>Nolan (ARKANYOTA)</p>
+                    <p>ArkanYota (Nolan)</p>
                     <div className="SocialBox">
                         <a href="https://www.github.com/ARKANYOTA" className="fa-github"><img className="fa fa-image" alt="github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" /></a>
                         <a href="https://www.youtube.com/channel/UC44p7IFHS8WK7CF3zSv38QA" className="fa-youtube"><img className="fa fa-image" alt="youtube" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" /></a>
@@ -22,7 +22,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="Leo box-dev">
-                    <p>Leo (Yolwoocle)</p>
+                    <p>Yolwoocle (Léo)</p>
                     <div className="SocialBox">
                         <a href="https://www.github.com/Yolwoocle" className="fa-github"><img className="fa fa-image" alt="github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" /></a>
                         <a href="https://www.youtube.com/channel/UCnoLGNd0y28wyucydvJalKg" className="fa-youtube"><img className="fa fa-image" alt="youtube" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" /></a>

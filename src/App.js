@@ -3,6 +3,7 @@ import React from "react";
 import Welcome from './components/Welcome/Welcome';
 import Page1 from './components/Page1/Page1';
 import Page2 from './components/Page2/Page2';
+import Page3 from './components/Page3/Page3';
 import Footer from './components/Footer/Footer';
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class Index extends React.Component{
         <Welcome/>
         <Page1/>
         <Page2/>
+        <Page3/>
         <Footer/>
       </div>
     );
