@@ -3,7 +3,6 @@ import Pot from '../../image/svg/PotRez.svg';
 import PipesRight from '../../image/svg/piperight.svg';
 import PipesLeft from '../../image/svg/pipeleft.svg';
 import GameJam from '../../image/svg/Gamejam.svg';
-import './Welcome.css'
 
 export default function Welcome() {
   return (

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './Page2.css'
 
 class PInsideTruc extends React.Component{
 	constructor(props) {
@@ -27,8 +26,8 @@ class PInsideTruc extends React.Component{
 				
 				<svg width="60" height="60" viewBox="0 0 60 60">
 					<linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%">
-						<stop offset="0%"   stopColor="#2ed8a7"/>
-						<stop offset="100%" stopColor="#a6ceff"/>
+						<stop offset="0%"   stopColor="var(--freshjam-color)"/>
+						<stop offset="100%" stopColor="var(--wood-color)"/>
 					</linearGradient>
 					<circle transform="rotate(-90) translate(-60)" strokeLinecap="round"  cx="30" cy="30" r="28" 
 						stroke="url(#linear)" strokeWidth="4" fill="none" strokeDasharray="173" 
@@ -67,14 +66,10 @@ function Countdown() {
 	const timerComponents = [];
 
 	Object.keys(timeLeft).forEach((interval) => {
-		if (!timeLeft[interval]) {
-			return;
-		}
-
 		timerComponents.push(
 			<span key={interval+"span"}>
 				<div key={interval} className="Boite_Interval1">
-					<p key={interval+"p"}>
+					<p className="Horloge" key={interval+"p"}>
 						<PInsideTruc timeLeft={timeLeft} interval={interval}/>
 					</p>
 				</div>
@@ -84,9 +79,6 @@ function Countdown() {
 	
 	const nameComponents = [];
 	Object.keys(timeLeft).forEach((interval) => {
-		if (!timeLeft[interval]) {
-			return;
-		}
 
 		nameComponents.push(
 			<span key={interval+"spanname"}>
@@ -130,8 +122,8 @@ class Page2 extends React.Component {
 	render(){
 		return (
 			<div className="Page2">
-				<div className='box'>
-					<div className='box-text'>
+				<div className='Boite'>
+					<div className='Boite-texte'>
 						<h3>Quand?</h3>
 						<p>
 							<strong>Vendredi 7 mai à 18-19h</strong> : Annonce du thème sur <u>
@@ -146,23 +138,22 @@ class Page2 extends React.Component {
 						<p><strong>Dimanche 23 mai</strong> : Annonce des meilleurs jeux</p>
 					</div>
 				</div>
-				<div className='box'>
+				<div className='Boite'>
 					<Countdown/>
 				</div>
-				<div className='box'>
-					<div className='box-text'>
+				<div className='Boite'>
+					<div className='Boite-texte'>
 						<h3>Avec Quoi?</h3>
 						<p>Des Amis, De la patience, de la persévérance. (Et des lignes de code)</p>
 					</div>
 
 				</div>
-				<div className='box'>
-					<div className='box-text'>
+				<div className='Boite'>
+					<div className='Boite-texte'>
 						<h3>Pourquoi ?</h3>
 						<p>
-							Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de 
-							différences personnes. Dans les bonnes conditions, une jam
-							est une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. 
+							Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de différences personnes. <br/>
+							Dans les bonnes conditions, une jamest une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. <br/>
 							Et parfois, des nouvelles amitiés se forment après une jam !
 						</p>
 					</div>

@@ -1,36 +1,37 @@
 import React from 'react';
-import './Page1.css'
 import de from '../../image/tmp/de.png'
 import robot from '../../image/tmp/robot.png'
 
 export default function Page1() {
 	return (
 		<div className="Page1">
-			<div className='box'>
-				<img alt="de" className="box-img" src={robot}/>
-
+			<div className='Boite'>
+				<div className="Boite-image">
+					<img alt="de" src={robot}/>
+				</div>
 			</div>
-			<div className='box'>
-				<div className='box-text'>
+			<div className='Boite'>
+				<div className='Boite-texte'>
 					<h3>C'est quoi ?</h3>
 					<p>
-						Unissez vos forces entre artistes, codeurs, musiciens, designeurs et écrivains  
+						Unissez vos forces entre artistes, codeurs, musiciens, designeurs et écrivains <br/>
 						afin de créer un jeu vidéo en moins d'une semaine !
 					</p>
 				</div>
 			</div>
-			<div className='box'>
-				<div className='box-text'>
-					<h3>Help! Je ne sais pas coder/dessiner/autre!</h3>
+			<div className='Boite'>
+				<div className='Boite-texte'>
+					<h3>Comment?</h3>
 					<p>
-						Pas de panique! Le plus important est d'apprendre des nouvelles choses et de coopérer 
+						Pas de panique! Le plus important est d'apprendre des nouvelles choses et de coopérer <br/>
 						entre lycéens. Votre créativité, esprit d'équipe, et persévérance sont bien plus importants ! :)
 					</p>
 				</div>
 			</div>
-			<div className='box'>
-				<img alt="de" className="box-img" src={de}/>
-
+			<div className='Boite'>
+				<div className="Boite-image">
+					<img alt="de" src={de}/>
+				</div>
 			</div>
 		</div>    
 	);

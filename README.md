@@ -11,7 +11,7 @@ Cloner le repo: `git clone https://github.com/ARKANYOTA/GameJamInterlycee.git` e
 Instaler les paquets: `npm i` \
 Lancer le serveur de test: `npm start` \
 Cree une production (build): `npm run build` \
-Tester le build: `npm install -g serve & serve -s build`
+Tester le build: `npm install -g serve & serve -s build` (Ne marche pas pour ma machine.)
 
 ## Gh-pages deploy
 
