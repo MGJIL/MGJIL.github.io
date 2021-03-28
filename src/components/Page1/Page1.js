@@ -1,13 +1,13 @@
 import React from 'react';
 import de from '../../image/tmp/de.png'
-import robot from '../../image/tmp/robot.png'
+import PersoCaisse from '../../image/pngPages/PersoCaisse.png'
 
 export default function Page1() {
 	return (
 		<div className="Page1">
 			<div className='Boite'>
 				<div className="Boite-image">
-					<img alt="de" src={robot}/>
+					<img alt="PersoCaisse" src={PersoCaisse}/>
 				</div>
 			</div>
 			<div className='Boite'>

@@ -39,9 +39,21 @@ class PInsideTruc extends React.Component{
 }
 
 function Countdown() {
+	
 	// https://github.com/do-community/react-hooks-timer/tree/859cb4439bf61bcf56a61238bd3b26518cc9f03c
 	const calculateTimeLeft = () => {
-		const difference = +new Date(2021, 4, 7, 20,0,0) - +new Date();
+		const TimeGameJam = +new Date(2021, 4, 7, 20,0,0)
+		const TimeFinGameJam = +new Date(2021, 4, 16, 23,59,59)
+		const DifTimeGameJam = TimeGameJam - +new Date();
+		const DifTimeFinGameJam = TimeFinGameJam - +new Date();
+		let difference;
+		if (DifTimeGameJam < 0){
+			difference = DifTimeFinGameJam;
+		}else if (DifTimeFinGameJam < 0){
+			difference = 0;
+		}else{
+			difference = DifTimeGameJam;
+		}
 		let timeLeft = {};
 		
 		if (difference > 0) {
@@ -91,7 +103,7 @@ function Countdown() {
 	return (
 		<div>
 			{timerComponents.length ? 
-				<div className="Boite_Interval"><h3>Temps restant avant:</h3>{timerComponents}<br/>{nameComponents}</div> 
+				<div className="Boite_Interval"><h3>Temps avant:</h3>{timerComponents}<br/>{nameComponents}</div> 
 				:<span>Time's up!</span>
 			}
 		</div>
