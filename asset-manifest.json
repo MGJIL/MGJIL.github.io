@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/mgjil.github.io/static/css/main.65e9f109.chunk.css",
-    "main.js": "/mgjil.github.io/static/js/main.87a33e0e.chunk.js",
-    "main.js.map": "/mgjil.github.io/static/js/main.87a33e0e.chunk.js.map",
-    "runtime-main.js": "/mgjil.github.io/static/js/runtime-main.9ec8f8e4.js",
-    "runtime-main.js.map": "/mgjil.github.io/static/js/runtime-main.9ec8f8e4.js.map",
-    "static/js/2.41421808.chunk.js": "/mgjil.github.io/static/js/2.41421808.chunk.js",
-    "static/js/2.41421808.chunk.js.map": "/mgjil.github.io/static/js/2.41421808.chunk.js.map",
-    "static/js/3.81cd65d1.chunk.js": "/mgjil.github.io/static/js/3.81cd65d1.chunk.js",
-    "static/js/3.81cd65d1.chunk.js.map": "/mgjil.github.io/static/js/3.81cd65d1.chunk.js.map",
-    "index.html": "/mgjil.github.io/index.html",
-    "static/css/main.65e9f109.chunk.css.map": "/mgjil.github.io/static/css/main.65e9f109.chunk.css.map",
-    "static/js/2.41421808.chunk.js.LICENSE.txt": "/mgjil.github.io/static/js/2.41421808.chunk.js.LICENSE.txt",
-    "static/media/Gamejam.6aebbc06.svg": "/mgjil.github.io/static/media/Gamejam.6aebbc06.svg",
-    "static/media/PotRez.38be38cb.svg": "/mgjil.github.io/static/media/PotRez.38be38cb.svg",
-    "static/media/de.7105bc9b.png": "/mgjil.github.io/static/media/de.7105bc9b.png",
-    "static/media/pipeleft.827db9af.svg": "/mgjil.github.io/static/media/pipeleft.827db9af.svg",
-    "static/media/piperight.f4f3cc88.svg": "/mgjil.github.io/static/media/piperight.f4f3cc88.svg"
+    "main.css": "/static/css/main.65e9f109.chunk.css",
+    "main.js": "/static/js/main.4fb831ac.chunk.js",
+    "main.js.map": "/static/js/main.4fb831ac.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3c3ee122.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3c3ee122.js.map",
+    "static/js/2.41421808.chunk.js": "/static/js/2.41421808.chunk.js",
+    "static/js/2.41421808.chunk.js.map": "/static/js/2.41421808.chunk.js.map",
+    "static/js/3.81cd65d1.chunk.js": "/static/js/3.81cd65d1.chunk.js",
+    "static/js/3.81cd65d1.chunk.js.map": "/static/js/3.81cd65d1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.65e9f109.chunk.css.map": "/static/css/main.65e9f109.chunk.css.map",
+    "static/js/2.41421808.chunk.js.LICENSE.txt": "/static/js/2.41421808.chunk.js.LICENSE.txt",
+    "static/media/Gamejam.6aebbc06.svg": "/static/media/Gamejam.6aebbc06.svg",
+    "static/media/PotRez.38be38cb.svg": "/static/media/PotRez.38be38cb.svg",
+    "static/media/de.7105bc9b.png": "/static/media/de.7105bc9b.png",
+    "static/media/pipeleft.827db9af.svg": "/static/media/pipeleft.827db9af.svg",
+    "static/media/piperight.f4f3cc88.svg": "/static/media/piperight.f4f3cc88.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9ec8f8e4.js",
+    "static/js/runtime-main.3c3ee122.js",
     "static/js/2.41421808.chunk.js",
     "static/css/main.65e9f109.chunk.css",
-    "static/js/main.87a33e0e.chunk.js"
+    "static/js/main.4fb831ac.chunk.js"
   ]
 }
