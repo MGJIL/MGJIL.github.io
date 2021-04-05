@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/GameJamInterlycee/static/css/main.7ce4c438.chunk.css",
-    "main.js": "/GameJamInterlycee/static/js/main.ec0681b9.chunk.js",
-    "main.js.map": "/GameJamInterlycee/static/js/main.ec0681b9.chunk.js.map",
+    "main.css": "/GameJamInterlycee/static/css/main.65e9f109.chunk.css",
+    "main.js": "/GameJamInterlycee/static/js/main.8c05f2d2.chunk.js",
+    "main.js.map": "/GameJamInterlycee/static/js/main.8c05f2d2.chunk.js.map",
     "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js",
     "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js.map",
     "static/js/2.41421808.chunk.js": "/GameJamInterlycee/static/js/2.41421808.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.81cd65d1.chunk.js": "/GameJamInterlycee/static/js/3.81cd65d1.chunk.js",
     "static/js/3.81cd65d1.chunk.js.map": "/GameJamInterlycee/static/js/3.81cd65d1.chunk.js.map",
     "index.html": "/GameJamInterlycee/index.html",
-    "static/css/main.7ce4c438.chunk.css.map": "/GameJamInterlycee/static/css/main.7ce4c438.chunk.css.map",
+    "static/css/main.65e9f109.chunk.css.map": "/GameJamInterlycee/static/css/main.65e9f109.chunk.css.map",
     "static/js/2.41421808.chunk.js.LICENSE.txt": "/GameJamInterlycee/static/js/2.41421808.chunk.js.LICENSE.txt",
     "static/media/Gamejam.6aebbc06.svg": "/GameJamInterlycee/static/media/Gamejam.6aebbc06.svg",
     "static/media/PotRez.38be38cb.svg": "/GameJamInterlycee/static/media/PotRez.38be38cb.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.660bf46a.js",
     "static/js/2.41421808.chunk.js",
-    "static/css/main.7ce4c438.chunk.css",
-    "static/js/main.ec0681b9.chunk.js"
+    "static/css/main.65e9f109.chunk.css",
+    "static/js/main.8c05f2d2.chunk.js"
   ]
 }
