@@ -136,6 +136,14 @@ class Page2 extends React.Component {
 			<div className="Page2">
 				<div className='Boite'>
 					<div className='Boite-texte'>
+						
+					</div>
+				</div>
+				<div className='Boite'>
+					<Countdown/>
+				</div>
+				<div className='Boite'>
+					<div className='Boite-texte'>
 						<h3>Quand?</h3>
 						<p>
 							<strong>Vendredi 7 mai à 18-19h</strong> : Annonce du thème sur <u>
@@ -144,30 +152,15 @@ class Page2 extends React.Component {
 								</strong>
 							</u>.
 						</p>
-						<p><strong>Dimanche 16 mai à 23h59</strong> : Arrêt de l'evenement</p>
+						<p><strong>Dimanche 16 mai à 23h59</strong> : Arrêt de l'événement</p>
 						<p><strong>Lundi 17 mai</strong> : Présentation des jeux par les participants</p>
 						<p><strong>Lundi 17 mai au Dimanche 23 mai</strong> : Vote par le jury et les participants</p>
 						<p><strong>Dimanche 23 mai</strong> : Annonce des meilleurs jeux</p>
 					</div>
 				</div>
 				<div className='Boite'>
-					<Countdown/>
-				</div>
-				<div className='Boite'>
 					<div className='Boite-texte'>
-						<h3>Avec Quoi?</h3>
-						<p>Des Amis, De la patience, de la persévérance. (Et des lignes de code)</p>
-					</div>
 
-				</div>
-				<div className='Boite'>
-					<div className='Boite-texte'>
-						<h3>Pourquoi ?</h3>
-						<p>
-							Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de différences personnes. <br/>
-							Dans les bonnes conditions, une jamest une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. <br/>
-							Et parfois, des nouvelles amitiés se forment après une jam !
-						</p>
 					</div>
 				</div>
 			</div>    
