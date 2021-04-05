@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GameJamInterlycee/static/css/main.65e9f109.chunk.css",
-    "main.js": "/GameJamInterlycee/static/js/main.8c05f2d2.chunk.js",
-    "main.js.map": "/GameJamInterlycee/static/js/main.8c05f2d2.chunk.js.map",
+    "main.js": "/GameJamInterlycee/static/js/main.43b3c85b.chunk.js",
+    "main.js.map": "/GameJamInterlycee/static/js/main.43b3c85b.chunk.js.map",
     "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js",
     "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js.map",
     "static/js/2.41421808.chunk.js": "/GameJamInterlycee/static/js/2.41421808.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.660bf46a.js",
     "static/js/2.41421808.chunk.js",
     "static/css/main.65e9f109.chunk.css",
-    "static/js/main.8c05f2d2.chunk.js"
+    "static/js/main.43b3c85b.chunk.js"
   ]
 }
