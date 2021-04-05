@@ -49,7 +49,7 @@ export default function Page3() {
 				</div>
 			</div>
 			<div className='Boite'>
-				<div classeName='Boite-texte'>
+				<div className='Boite-texte'>
 					<h3>Musique et sons:</h3> 
 					<p>
 						<a href="https://boscaceoil.net/">Bosca Ceoil</a>, conçu pour les débutants et les game 
