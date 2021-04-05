@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/GameJamInterlycee/static/css/main.65e9f109.chunk.css",
-    "main.js": "/GameJamInterlycee/static/js/main.43b3c85b.chunk.js",
-    "main.js.map": "/GameJamInterlycee/static/js/main.43b3c85b.chunk.js.map",
-    "runtime-main.js": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js",
-    "runtime-main.js.map": "/GameJamInterlycee/static/js/runtime-main.660bf46a.js.map",
-    "static/js/2.41421808.chunk.js": "/GameJamInterlycee/static/js/2.41421808.chunk.js",
-    "static/js/2.41421808.chunk.js.map": "/GameJamInterlycee/static/js/2.41421808.chunk.js.map",
-    "static/js/3.81cd65d1.chunk.js": "/GameJamInterlycee/static/js/3.81cd65d1.chunk.js",
-    "static/js/3.81cd65d1.chunk.js.map": "/GameJamInterlycee/static/js/3.81cd65d1.chunk.js.map",
-    "index.html": "/GameJamInterlycee/index.html",
-    "static/css/main.65e9f109.chunk.css.map": "/GameJamInterlycee/static/css/main.65e9f109.chunk.css.map",
-    "static/js/2.41421808.chunk.js.LICENSE.txt": "/GameJamInterlycee/static/js/2.41421808.chunk.js.LICENSE.txt",
-    "static/media/Gamejam.6aebbc06.svg": "/GameJamInterlycee/static/media/Gamejam.6aebbc06.svg",
-    "static/media/PotRez.38be38cb.svg": "/GameJamInterlycee/static/media/PotRez.38be38cb.svg",
-    "static/media/de.7105bc9b.png": "/GameJamInterlycee/static/media/de.7105bc9b.png",
-    "static/media/pipeleft.827db9af.svg": "/GameJamInterlycee/static/media/pipeleft.827db9af.svg",
-    "static/media/piperight.f4f3cc88.svg": "/GameJamInterlycee/static/media/piperight.f4f3cc88.svg"
+    "main.css": "/mgjil.github.io/static/css/main.65e9f109.chunk.css",
+    "main.js": "/mgjil.github.io/static/js/main.87a33e0e.chunk.js",
+    "main.js.map": "/mgjil.github.io/static/js/main.87a33e0e.chunk.js.map",
+    "runtime-main.js": "/mgjil.github.io/static/js/runtime-main.9ec8f8e4.js",
+    "runtime-main.js.map": "/mgjil.github.io/static/js/runtime-main.9ec8f8e4.js.map",
+    "static/js/2.41421808.chunk.js": "/mgjil.github.io/static/js/2.41421808.chunk.js",
+    "static/js/2.41421808.chunk.js.map": "/mgjil.github.io/static/js/2.41421808.chunk.js.map",
+    "static/js/3.81cd65d1.chunk.js": "/mgjil.github.io/static/js/3.81cd65d1.chunk.js",
+    "static/js/3.81cd65d1.chunk.js.map": "/mgjil.github.io/static/js/3.81cd65d1.chunk.js.map",
+    "index.html": "/mgjil.github.io/index.html",
+    "static/css/main.65e9f109.chunk.css.map": "/mgjil.github.io/static/css/main.65e9f109.chunk.css.map",
+    "static/js/2.41421808.chunk.js.LICENSE.txt": "/mgjil.github.io/static/js/2.41421808.chunk.js.LICENSE.txt",
+    "static/media/Gamejam.6aebbc06.svg": "/mgjil.github.io/static/media/Gamejam.6aebbc06.svg",
+    "static/media/PotRez.38be38cb.svg": "/mgjil.github.io/static/media/PotRez.38be38cb.svg",
+    "static/media/de.7105bc9b.png": "/mgjil.github.io/static/media/de.7105bc9b.png",
+    "static/media/pipeleft.827db9af.svg": "/mgjil.github.io/static/media/pipeleft.827db9af.svg",
+    "static/media/piperight.f4f3cc88.svg": "/mgjil.github.io/static/media/piperight.f4f3cc88.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.660bf46a.js",
+    "static/js/runtime-main.9ec8f8e4.js",
     "static/js/2.41421808.chunk.js",
     "static/css/main.65e9f109.chunk.css",
-    "static/js/main.43b3c85b.chunk.js"
+    "static/js/main.87a33e0e.chunk.js"
   ]
 }
