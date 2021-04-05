@@ -4,8 +4,8 @@ export default function Footer() {
 	return (
         <div className="Footer">
             <div className="Equipededev">
-                <div className="Maxime box-dev">
-                    <p>Maxio (Maxime)</p>
+                <div className="Maxim box-dev">
+                    <p>Maxio (Maxim)</p>
                     <div className="SocialBox">
                         <a href="https://github.com/Maxim-Costa" className="fa-github"><img className="fa fa-image" alt="github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" /></a>
                         <a href="https://www.youtube.com/channel/UCcwmG21oxy3Q3u7utDU7zpw" className="fa-youtube"><img className="fa fa-image" alt="youtube" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg" /></a>
