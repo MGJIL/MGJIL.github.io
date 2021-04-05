@@ -2,7 +2,7 @@
   "name": "gamejaminterlycee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arkanyota.github.io/GameJamInterlycee",
+  "homepage": "mgjil.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.1.0",
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
