@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9efba036.chunk.css",
-    "main.js": "/static/js/main.7025ee0c.chunk.js",
-    "main.js.map": "/static/js/main.7025ee0c.chunk.js.map",
+    "main.css": "/static/css/main.b50f3b7b.chunk.css",
+    "main.js": "/static/js/main.e670fff1.chunk.js",
+    "main.js.map": "/static/js/main.e670fff1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6ce1d1ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.6ce1d1ad.js.map",
     "static/js/2.56a31732.chunk.js": "/static/js/2.56a31732.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ce6fc7bc.chunk.js": "/static/js/3.ce6fc7bc.chunk.js",
     "static/js/3.ce6fc7bc.chunk.js.map": "/static/js/3.ce6fc7bc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9efba036.chunk.css.map": "/static/css/main.9efba036.chunk.css.map",
+    "static/css/main.b50f3b7b.chunk.css.map": "/static/css/main.b50f3b7b.chunk.css.map",
     "static/js/2.56a31732.chunk.js.LICENSE.txt": "/static/js/2.56a31732.chunk.js.LICENSE.txt",
     "static/media/Gamejam.6aebbc06.svg": "/static/media/Gamejam.6aebbc06.svg",
     "static/media/PotRez.38be38cb.svg": "/static/media/PotRez.38be38cb.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.6ce1d1ad.js",
     "static/js/2.56a31732.chunk.js",
-    "static/css/main.9efba036.chunk.css",
-    "static/js/main.7025ee0c.chunk.js"
+    "static/css/main.b50f3b7b.chunk.css",
+    "static/js/main.e670fff1.chunk.js"
   ]
 }
