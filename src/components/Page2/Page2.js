@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import mariobox from '../../image/pngPages/mariobox.png'
 
 class PInsideTruc extends React.Component{
 	constructor(props) {
@@ -103,7 +104,7 @@ function Countdown() {
 	return (
 		<div>
 			{timerComponents.length ? 
-				<div className="Boite_Interval"><h2>Temps avant:</h2>{timerComponents}<br/>{nameComponents}</div> 
+				<div className="Boite_Interval"><h2>Temps avant le début:</h2>{timerComponents}<br/>{nameComponents}</div> 
 				:<span>Time's up!</span>
 			}
 		</div>
@@ -135,15 +136,7 @@ class Page2 extends React.Component {
 		return (
 			<div className="Page2">
 				<div className='Boite'>
-					<div className='Boite-texte'>
-						
-					</div>
-				</div>
-				<div className='Boite'>
-					<Countdown/>
-				</div>
-				<div className='Boite'>
-					<div className='Boite-texte'>
+				<div className='Boite-texte'>
 						<h2>Quand?</h2>
 						<p>
 							<strong>Vendredi 12 Mai à 19h</strong> : Annonce du thème sur <u>
@@ -161,7 +154,18 @@ class Page2 extends React.Component {
 					</div>
 				</div>
 				<div className='Boite'>
+					<Countdown/>
+				</div>
+				<div className='Boite'>
+					<div className='Boite-image'>
+						<img alt="mariobox" src={mariobox}/>
+					</div>	
+				</div>
+				<div className='Boite'>
 					<div className='Boite-texte'>
+						<h2>Le thème?</h2>
+						<h3>Sera dévoilé le Vendredi 12 Mai à 19h</h3>
+						<p>Ici même et sur <a href="https://discord.com/invite/qnckfFcSqP">Discord</a></p>
 
 					</div>
 				</div>

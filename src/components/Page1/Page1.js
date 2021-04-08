@@ -1,5 +1,5 @@
 import React from 'react';
-import de from '../../image/tmp/de.png'
+import pipes from '../../image/pngPages/pipes.png'
 import PersoCaisse from '../../image/pngPages/PersoCaisse.png'
 
 export default function Page1() {
@@ -32,7 +32,7 @@ export default function Page1() {
 			</div>
 			<div className='Boite'>
 				<div className="Boite-image">
-					<img alt="de" src={de}/>
+				<img alt="pipes" src={pipes}/>
 				</div>
 			</div>
 		</div>    
