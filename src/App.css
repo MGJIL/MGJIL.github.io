@@ -167,13 +167,13 @@ img{
   left: 0px;
 }
 .Boite_Interval{
-/*    border: black solid 1px;*/
+  /*border: black solid 1px;*/
   position: relative;
   top:25vh;
   transform: translateY(-50%);
 }
 .Boite_Interval1{
-  /*    border: black solid 1px;*/
+  /*border: black solid 1px;*/
   border-radius: 50%;
   position: relative;
   display: inline-block;
@@ -181,7 +181,7 @@ img{
   height: 60px;
   margin: 3px;
 }
-.Boite_Interval1 > p{
+.Boite_Interval1 > span{
   font-size: 40px;
 }
 .Boite_Interval1name{
@@ -316,5 +316,20 @@ svg {
   .Boite{
     height:25%;
     width:100%;
+  }
+  h2{
+    font-size: 22px;
+  }
+  *{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 700px){ 
+  h2{
+    font-size: 20px;
+  }
+  *{
+    font-size: 14px;
   }
 }

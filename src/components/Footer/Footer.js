@@ -38,7 +38,7 @@ export default function Footer() {
                     <img className="Icone" alt="Github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" />
                 </a>
             </div>
-            <p className="Licence">Copyright (c) 2021 ARKANYOTA</p>
+            <p className="Licence">Copyright &copy; 2021 ARKANYOTA</p>
 
         </div>
     );

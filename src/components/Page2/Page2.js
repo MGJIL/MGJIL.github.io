@@ -82,9 +82,9 @@ function Countdown() {
 		timerComponents.push(
 			<span key={interval+"span"}>
 				<div key={interval} className="Boite_Interval1">
-					<p className="Horloge" key={interval+"p"}>
+					<span className="Horloge" key={interval+"span"}>
 						<PInsideTruc timeLeft={timeLeft} interval={interval}/>
-					</p>
+					</span>
 				</div>
 			</span>
 		);
