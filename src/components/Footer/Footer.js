@@ -34,7 +34,7 @@ export default function Footer() {
                 <a href="https://discord.gg/qnckfFcSqP" className="Discord">
                     <img className="Icone" alt="Discord" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/discord.svg" />
                 </a>
-                <a href="https://github.com/ARKANYOTA/GameJamInterlycee" className="SourceCode">
+                <a href="https://github.com/MGJIL/mgjil.github.io" className="SourceCode">
                     <img className="Icone" alt="Github" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" />
                 </a>
             </div>

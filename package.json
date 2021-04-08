@@ -2,7 +2,7 @@
   "name": "gamejaminterlycee",
   "version": "0.1.0",
   "private": true,
-  "homepage": "mgjil.github.io",
+  "homepage": "https://mgjil.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.1.0",

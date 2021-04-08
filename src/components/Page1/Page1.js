@@ -12,7 +12,7 @@ export default function Page1() {
 			</div>
 			<div className='Boite'>
 				<div className='Boite-texte'>
-					<h3>C'est quoi ?</h3>
+					<h2>C'EST QUOI ?</h2>
 					<p>
 						La Montpellier Game Jam est un événement où des équipes de lycéens unissent leurs forces entre 
 						artistes, codeurs, musiciens, designeurs et écrivains afin de créer un jeu vidéo 
@@ -22,7 +22,7 @@ export default function Page1() {
 			</div>
 			<div className='Boite'>
 				<div className='Boite-texte'>
-					<h3>Pourquoi ?</h3>
+					<h2>POURQUOI ?</h2>
 					<p>
 						Créer un jeu n'est pas facile, et nécessitera de mettre en commun les connaissances de différentes personnes. <br/>
 						Dans les bonnes conditions, une game jam est une super expérience qui donne envie ensuite de continuer à apprendre, bien au delà du jeu vidéo. <br/>

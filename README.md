@@ -2,12 +2,12 @@
 
 ## Site web 
 @ARKANYOTA \
-[https://arkanyota.github.io/GameJamInterlycee](https://arkanyota.github.io/GameJamInterlycee)
+[https://mgjil.github.io/](https://mgjil.github.io/)
 
 ## Page React
 ### Utiliser le code source
 
-Cloner le repo: `git clone https://github.com/ARKANYOTA/GameJamInterlycee.git` et ouvrir le dossier: `cd GameJamInterlycee` \
+Cloner le repo: `git clone https://github.com/MGJIL/mgjil.github.io.git` et ouvrir le dossier: `cd mgjil.github.io` \
 Instaler les paquets: `npm i` \
 Update les packets pour eventuement eviter les warning:  `npm update` \
 Lancer le serveur de test: `npm start` \

@@ -30,7 +30,7 @@ class PInsideTruc extends React.Component{
 						<stop offset="100%" stopColor="var(--wood-color)"/>
 					</linearGradient>
 					<circle transform="rotate(-90) translate(-60)" strokeLinecap="round"  cx="30" cy="30" r="28" 
-						stroke="url(#linear)" strokeWidth="4" fill="none" strokeDasharray="173" 
+						stroke="url(#linear)" strokeWidth="4" fill="none" strokeDasharray="175" 
 						strokeDashoffset={this.props.timeLeft[this.props.interval]/this.Render_Sur_Combien()*173} strokemitterlimit="0"/>
 				</svg>
 			</React.Fragment>
@@ -42,8 +42,8 @@ function Countdown() {
 	
 	// https://github.com/do-community/react-hooks-timer/tree/859cb4439bf61bcf56a61238bd3b26518cc9f03c
 	const calculateTimeLeft = () => {
-		const TimeGameJam = +new Date(2021, 4, 7, 20,0,0)
-		const TimeFinGameJam = +new Date(2021, 4, 16, 23,59,59)
+		const TimeGameJam = +new Date(2021, 4, 12, 20,0,0)
+		const TimeFinGameJam = +new Date(2021, 4, 24, 23,59,59)
 		const DifTimeGameJam = TimeGameJam - +new Date();
 		const DifTimeFinGameJam = TimeFinGameJam - +new Date();
 		let difference;
@@ -103,7 +103,7 @@ function Countdown() {
 	return (
 		<div>
 			{timerComponents.length ? 
-				<div className="Boite_Interval"><h3>Temps avant:</h3>{timerComponents}<br/>{nameComponents}</div> 
+				<div className="Boite_Interval"><h2>Temps avant:</h2>{timerComponents}<br/>{nameComponents}</div> 
 				:<span>Time's up!</span>
 			}
 		</div>
@@ -144,18 +144,20 @@ class Page2 extends React.Component {
 				</div>
 				<div className='Boite'>
 					<div className='Boite-texte'>
-						<h3>Quand?</h3>
+						<h2>Quand?</h2>
 						<p>
-							<strong>Vendredi 7 mai à 18-19h</strong> : Annonce du thème sur <u>
+							<strong>Vendredi 12 Mai à 19h</strong> : Annonce du thème sur <u>
 								<strong>
-									<a href="https://discord.com/invite/qnckfFcSqP">Discord</a>
+									<u>
+										<a href="https://discord.com/invite/qnckfFcSqP">Discord</a>
+									</u>
 								</strong>
 							</u>.
 						</p>
-						<p><strong>Dimanche 16 mai à 23h59</strong> : Arrêt de l'événement</p>
-						<p><strong>Lundi 17 mai</strong> : Présentation des jeux par les participants</p>
-						<p><strong>Lundi 17 mai au Dimanche 23 mai</strong> : Vote par le jury et les participants</p>
-						<p><strong>Dimanche 23 mai</strong> : Annonce des meilleurs jeux</p>
+						<p><strong>Lundi 24 Mai à 23h59</strong> : Arrêt de l'événement</p>
+						<p><strong>Sam 29 - Dim 30 Mai</strong> : Présentation des jeux par les participants</p>
+						<p><strong>Lun 31 mai - Ven 4 Juin</strong> : Vote par le jury et les participants</p>
+						<p><strong>Sam 4 - Dim 5 Juin</strong> : Événement de fin et annonce des meilleurs jeux</p>
 					</div>
 				</div>
 				<div className='Boite'>
