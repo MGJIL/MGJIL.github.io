@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9efba036.chunk.css",
-    "main.js": "/static/js/main.f7fa1b03.chunk.js",
-    "main.js.map": "/static/js/main.f7fa1b03.chunk.js.map",
+    "main.js": "/static/js/main.7025ee0c.chunk.js",
+    "main.js.map": "/static/js/main.7025ee0c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6ce1d1ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.6ce1d1ad.js.map",
     "static/js/2.56a31732.chunk.js": "/static/js/2.56a31732.chunk.js",
@@ -14,14 +14,15 @@
     "static/js/2.56a31732.chunk.js.LICENSE.txt": "/static/js/2.56a31732.chunk.js.LICENSE.txt",
     "static/media/Gamejam.6aebbc06.svg": "/static/media/Gamejam.6aebbc06.svg",
     "static/media/PotRez.38be38cb.svg": "/static/media/PotRez.38be38cb.svg",
-    "static/media/de.7105bc9b.png": "/static/media/de.7105bc9b.png",
+    "static/media/mariobox.42f721b5.png": "/static/media/mariobox.42f721b5.png",
     "static/media/pipeleft.827db9af.svg": "/static/media/pipeleft.827db9af.svg",
-    "static/media/piperight.f4f3cc88.svg": "/static/media/piperight.f4f3cc88.svg"
+    "static/media/piperight.f4f3cc88.svg": "/static/media/piperight.f4f3cc88.svg",
+    "static/media/pipes.5c986557.png": "/static/media/pipes.5c986557.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6ce1d1ad.js",
     "static/js/2.56a31732.chunk.js",
     "static/css/main.9efba036.chunk.css",
-    "static/js/main.f7fa1b03.chunk.js"
+    "static/js/main.7025ee0c.chunk.js"
   ]
 }
