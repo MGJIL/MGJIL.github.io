@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main #banner {
+  height: 100vh;
+  background: #282c34;
+}
+main #banner .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+  height: 95%;
+}
+main #banner .grid-container div img {
+  max-width: 100%;
+}
+main #banner .grid-container div .left-img {
+  width: 110px;
+}
+main #banner .grid-container div .logo {
+  width: 550px;
+}
+main #banner .grid-container div .title {
+  width: 400px;
+}
+main #banner .grid-container div .right-img {
+  width: 240px;
+}
+main #banner .grid-container div:nth-child(1) {
+  display: flex;
+  align-items: center;
+}
+main #banner .grid-container div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+main #banner .grid-container div:nth-child(3) {
+  margin-left: auto;
+}
+
+footer {
+  height: auto;
+  background: #000;
+}
+footer .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . .";
+  height: 100vh;
+  width: 100%;
+  overflow-y: hidden;
+}
+footer .grid-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+footer .grid-container div:hover {
+  transform: translate(0, -5px);
+}
+footer .grid-container div h3 {
+  color: #cbeffc;
+  position: relative;
+}
+footer .grid-container div .icon {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+footer .grid-container div .icon:hover {
+  cursor: pointer;
+}
+footer .grid-container div .icon img {
+  max-width: 100%;
+  width: 30px;
+  margin: 0 10px 0 10px;
+}
+footer .grid-container div .icon:hover {
+  transform: none;
+}
+footer .copy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 15px 15px;
+}
+footer .copy p {
+  color: #fff;
+}
+footer .copy div img {
+  max-width: 100%;
+  width: 40px;
+}
+footer .copy div img:nth-child(1) {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  main p {
+    font-size: 14px;
+  }
+  main h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  main #banner .grid-container {
+    display: flex !important;
+  }
+  main #banner .grid-container div:nth-child(1) {
+    display: none !important;
+  }
+  main #banner .grid-container div:nth-child(2) {
+    width: 100%;
+  }
+  main #banner .grid-container div:nth-child(2) img:nth-child(1) {
+    width: 350px !important;
+  }
+  main #banner .grid-container div:nth-child(3) {
+    display: none !important;
+  }
+
+  footer .grid-container {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+  }
+  footer .grid-container div {
+    margin: 20px 0 20px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
