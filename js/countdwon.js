@@ -1,5 +1,4 @@
-var countDownDate = new Date(2021, 04, 24, 23, 59, 59).getTime();
-console.log(new Date("05/24/2021 21:00:00 UTC") )
+var countDownDate = new Date("05/24/2021 21:59:59 UTC").getTime();
 // Update the count down every 1 second
 var x = setInterval(function () {
     // Get today's date and time
