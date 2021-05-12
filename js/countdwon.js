@@ -1,4 +1,4 @@
-var countDownDate = new Date("05/12/2021 17:00:00 UTC").getTime();
+var countDownDate = new Date("24/12/2021 21:59:59 UTC").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -30,6 +30,6 @@ var x = setInterval(function () {
     // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "Fin de l'évenement";
     }
 }, 1000);
