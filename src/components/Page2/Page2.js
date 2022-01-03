@@ -8,9 +8,9 @@ class PInsideTruc extends React.Component{
 	}
 	Render_Sur_Combien(){
 		switch (this.props.interval) {
-			case "days":
+			case "jours":
 				return 365
-			case "hours":
+			case "heures":
 				return 24
 			case "minutes":
 				return 60
@@ -40,11 +40,10 @@ class PInsideTruc extends React.Component{
 }
 
 function Countdown() {
-	
+    const TimeGameJam = +new Date(2022, 2, 1, 9,55,0)
+    const TimeFinGameJam = +new Date(2025, 4, 24, 23,59,59)
 	// https://github.com/do-community/react-hooks-timer/tree/859cb4439bf61bcf56a61238bd3b26518cc9f03c
 	const calculateTimeLeft = () => {
-		const TimeGameJam = +new Date(2021, 4, 12, 20,0,0)
-		const TimeFinGameJam = +new Date(2021, 4, 24, 23,59,59)
 		const DifTimeGameJam = TimeGameJam - +new Date();
 		const DifTimeFinGameJam = TimeFinGameJam - +new Date();
 		let difference;
@@ -59,8 +58,8 @@ function Countdown() {
 		
 		if (difference > 0) {
 			timeLeft = {
-				days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-				hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+				jours: Math.floor(difference / (1000 * 60 * 60 * 24)),
+				heures: Math.floor((difference / (1000 * 60 * 60)) % 24),
 				minutes: Math.floor((difference / 1000 / 60) % 60),
 				seconds: Math.floor((difference / 1000) % 60),
 			};
@@ -69,6 +68,17 @@ function Countdown() {
 	};
 
 	const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+	const calculateTimeLeftText = () => {
+		const DifTimeGameJam = TimeGameJam - +new Date();
+		const DifTimeFinGameJam = TimeFinGameJam - +new Date();
+		if (DifTimeGameJam < 0){
+			return 'Temps avant la fin';
+		}else if (DifTimeFinGameJam < 0){
+			return 'Time up';
+		}else{
+            return 'Temps avant le début'
+		}
+	};
 
 	useEffect(() => {
 		setTimeout(() => {
@@ -104,8 +114,8 @@ function Countdown() {
 	return (
 		<div>
 			{timerComponents.length ? 
-				<div className="Boite_Interval"><h2>Temps avant le début:</h2>{timerComponents}<br/>{nameComponents}</div> 
-				:<span>Time's up!</span>
+				<div className="Boite_Interval"><h2>{calculateTimeLeftText().toString()}:</h2>{timerComponents}<br/>{nameComponents}</div> 
+				: <div className="Boite_Interval"><h2>Temps Fini</h2></div> 
 			}
 		</div>
 	);
@@ -118,18 +128,10 @@ function Countdown() {
 
 		nameComponents.push(
 		);
-			
-		
-
-
-
-return (
+        return (
 				<div className="Page2">
-					
 		);
 	});
-
-
 */
 class Page2 extends React.Component {
 	render(){
